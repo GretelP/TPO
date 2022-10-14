@@ -231,3 +231,16 @@ ul.show{
     }
 
 }
+
+.mesasdetrabajo {
+    display:flex;
+    padding: 80px;
+    border: 2px solid;
+}
+
+.article {
+    padding:20px;
+    border: 2px solid;
+}
+
+
