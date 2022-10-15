@@ -276,6 +276,17 @@ text-align: center;
 font-size: 1em;
 
 }
+.Sobrenosotros{
+    text-align: center;
+    font-size: 1.2em;
+    display:flex;
+    padding: 100px;
+    border: 2px; 
+    border-radius: 2px;
+    text-align: left;
+    
+}
+
 
 
 
