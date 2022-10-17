@@ -231,3 +231,84 @@ ul.show{
     }
 
 }
+
+aside{
+	width:20vw;
+	height:80vh;
+	background-color:#5f6f9c;
+    display: flex;
+	float:right;
+	color:white;
+	padding:15px 24px 0px 15px;
+} 
+
+
+
+.Objetivos{
+    margin: 15px;
+    position: block;
+    width: 70vw;
+    height: 40vh;
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    color: #fff;
+    background-color: rgb(94, 93, 93);
+    text-align: justify;
+    display: flex;
+    float: left;
+}
+
+.Mision{
+    margin: 15px;
+    position: block;
+    width: 70vw;
+    height: 20vh;
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    color: rgb(82, 80, 80);
+    background-color: rgb(255, 239, 214);;
+    text-align: justify; 
+    display: flex;
+    float: left;
+}
+
+.Vision{
+    margin: 15px;
+    position: block;
+    width: 70vw;
+    height: 20vh;
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    color: #fff;
+    background-color: rgb(94, 93, 93);
+    text-align: justify;
+    display: flex;
+    float: left;
+}
+
+.Objetivos h1{
+    text-align: center;
+    
+}
+
+.Mision h1{
+    text-align: center;
+    margin: 2.5px;
+}
+
+.Vision h1{
+    text-align: center;
+    margin: 2.5px;
+}
+
+.Objetivos article p{
+    margin: 15px;
+}
+
+.Mision article p{
+    margin: 15px;
+}
+
+.Vision article p{
+    margin: 15px;
+}
+
+
+
