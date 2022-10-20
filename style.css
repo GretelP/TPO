@@ -314,10 +314,19 @@ aside{
 .mesasdetrabajo {
     display:flex;
     padding: 80px;
-    border: 2px;
-   
-  
+    border: 2px; 
 }
+
+.aside{
+    width: 20vw;
+    height: 80vh;
+    margin: 17px;
+    position: relative;
+    float: right;
+}
+
+
+
 
 .Docencia {
     display:flex;
