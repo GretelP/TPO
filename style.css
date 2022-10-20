@@ -200,6 +200,7 @@ ul.show{
     text-align: center;
     margin: 0 0 1rem 0;
     text-decoration: none;
+    font-style: italic;
 }
 
 .contact-info ul{
@@ -243,13 +244,20 @@ aside{
 	padding:15px 24px 0px 15px;
 } 
 
-
+.asociacion-index{
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0.1em 0.1em #1b1b1b;
+}
 
 .Objetivos{
     margin: 15px;
+    padding: 5px;
     position: block;
     width: 70vw;
-    height: 40vh;
+    height: 35vh;
     box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
     color: #fff;
     background-color: rgb(94, 93, 93);
@@ -260,9 +268,10 @@ aside{
 
 .Mision{
     margin: 15px;
+    padding: 5px;
     position: block;
     width: 70vw;
-    height: 20vh;
+    height: 17vh;
     box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
     color: rgb(82, 80, 80);
     background-color: rgb(255, 239, 214);;
@@ -273,9 +282,10 @@ aside{
 
 .Vision{
     margin: 15px;
+    padding: 5px;
     position: block;
     width: 70vw;
-    height: 20vh;
+    height: 17vh;
     box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
     color: #fff;
     background-color: rgb(94, 93, 93);
@@ -320,9 +330,30 @@ aside{
 .aside{
     width: 20vw;
     height: 80vh;
-    margin: 17px;
+    padding: 5px;
+    margin: 70px 5px 5px 7px;
     position: relative;
     float: right;
+    background-color: rgb(102, 128, 153);
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.aside h3{
+    text-align: center;
+    text-shadow: 0.1em 0.1em #1b1b1b;
+}
+
+.aside p{
+    margin: 7px;
+    text-align: justify;
+    font-style: italic;
+    text-shadow: 0.1em 0.1em #474747;
+}
+
+.iframe{
+    justify-content: center;
 }
 
 
@@ -334,6 +365,8 @@ aside{
     border: 2px;
     text-align: left;
     background-image: linear-gradient(125deg, #ffedad 0, #ffe1aa 12.5%, #ffd5a7 25%, #ffc7a2 37.5%, #f2b99d 50%, #e0ac97 62.5%, #d0a092 75%, #c1968d 87.5%, #b48d88 100%);
+    color: #fff;
+    text-shadow: 0.1em 0.1em #000000;
 }
 .Investigación{
     display:flex;
@@ -341,13 +374,17 @@ aside{
     border: 2px;
     text-align: left;
     background-image: linear-gradient(180deg, #dcffff 0, #9db9f2 50%, #606778 100%);
+    color: #fff;
+    text-shadow: 0.1em 0.1em #000000;
 }
 .Difusión{
-display:flex;
+    display:flex;
     padding: 40px;
     border: 2px;
     text-align: left;
     background-image: linear-gradient(180deg, #ffd1eb 0, #ffc9ee 10%, #ffc0ee 20%, #ffb5ea 30%, #ffaae2 40%, #f29dd5 50%, #d390c6 60%, #b885b8 70%, #a17cac 80%, #8d74a1 90%, #7c6d97 100%);
+    color: #fff;
+    text-shadow: 0.1em 0.1em #000000;
 }
 
 .Interdisciplinaria{
@@ -357,11 +394,15 @@ display:flex;
     border-radius: 2px;
     text-align: left;
     background-image: linear-gradient(170deg, #fff6ff 0, #d8cbff 25%, #9d9df2 50%, #6a71ab 75%, #41496d 100%);
+    color: #fff;
+    text-shadow: 0.1em 0.1em #000000;
 }
 
 .titulomesas{
 text-align: center;
 font-size: 1em;
+color: #fff;
+text-shadow: 0.1em 0.1em #1b1b1b;
 
 }
 .Sobrenosotros{
@@ -372,9 +413,15 @@ font-size: 1em;
     border: 2px; 
     border-radius: 2px;
     text-align: left;
-    
+    color: #fff;
+    text-shadow: 0.1em 0.1em #525151;   
 }
 
+.brindis{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 
 
