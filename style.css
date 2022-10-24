@@ -294,29 +294,15 @@ aside{
     float: left;
 }
 
-.Objetivos h1{
-    text-align: center;
-    
-}
-
-.Mision h1{
-    text-align: center;
-    margin: 2.5px;
-}
-
+.Objetivos h1,
+.Mision h1,
 .Vision h1{
     text-align: center;
     margin: 2.5px;
 }
 
-.Objetivos article p{
-    margin: 15px;
-}
-
-.Mision article p{
-    margin: 15px;
-}
-
+.Objetivos article p,
+.Mision article p,
 .Vision article p{
     margin: 15px;
 }
@@ -423,6 +409,47 @@ text-shadow: 0.1em 0.1em #1b1b1b;
    justify-content: center;
 }
 
+.grupo-1{
+    width: 100vw;
+    background-color: #fff;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 15px;
+}
+
+.pie-pagina .grupo-1 p{
+    color: #212a44;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 a{
+    display: inline-block;
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #545555;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
 
 
 
